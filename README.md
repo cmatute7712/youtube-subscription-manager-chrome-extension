@@ -12,7 +12,7 @@ A Chrome extension that allows you to export your YouTube subscriptions to CSV a
 
 ## Installation
 
-### Option 1: Load as Unpacked Extension (Recommended)
+### Load as Unpacked Extension
 
 1. **Open Chrome Extensions Page**:
    - Go to `chrome://extensions/`
@@ -29,14 +29,6 @@ A Chrome extension that allows you to export your YouTube subscriptions to CSV a
    - You should see "YouTube Subscription Manager" in your extensions list
    - The extension icon should appear in your Chrome toolbar
 
-### Option 2: Use Packaging Scripts
-
-1. Navigate to the `../utilities/` folder
-2. Run the appropriate packaging script:
-   - Windows: `package.bat` or `package.ps1`
-   - Linux/macOS: `package.sh`
-3. Extract the generated zip file
-4. Follow the "Load unpacked" instructions above
 
 ## Usage
 
