@@ -29,6 +29,13 @@ A Chrome extension that allows you to export your YouTube subscriptions to CSV a
    - You should see "YouTube Subscription Manager" in your extensions list
    - The extension icon should appear in your Chrome toolbar
 
+### Option 2: Manual Packaging
+
+1. Create a new folder for distribution
+2. Copy all extension files (manifest.json, popup.html, popup.js, content.js, background.js, styles.css, icon.svg)
+3. Create a zip file with these files
+4. Extract the zip file when ready to install
+5. Follow the "Load unpacked" instructions above
 
 ## Usage
 
@@ -175,34 +182,22 @@ Youtube Subcription Manager Chrome Extension/
 - Subject to YouTube's rate limiting
 - YouTube layout changes may require updates
 
-## Packaging Scripts
+## Distribution
 
-The `../utilities/` folder contains packaging scripts for different platforms:
+To create a distribution package:
 
-### Development Packaging
-- **package.bat** / **package.ps1** / **package.sh**: Creates a standard distribution package
-- Includes all files including README.md
-- Creates `youtube-subscription-manager.zip`
+1. **Manual Method**: Copy all essential files to a new folder:
+   - `manifest.json`
+   - `popup.html`
+   - `popup.js`
+   - `content.js`
+   - `background.js`
+   - `styles.css`
+   - `icon.svg`
+   - `README.md` (optional for distribution)
 
-### Production Packaging (Chrome Web Store)
-- **package-prod.bat** / **package-prod.ps1** / **package-prod.sh**: Creates a production-ready package
-- Excludes development files
-- Creates optimized README
-- Creates `youtube-subscription-manager-webstore.zip`
-- Includes Chrome Web Store submission guidelines
-
-### Usage
-```bash
-# Windows
-cd ../utilities
-package.bat          # or package.ps1
-package-prod.bat     # or package-prod.ps1
-
-# Linux/macOS
-cd ../utilities
-./package.sh
-./package-prod.sh
-```
+2. **Zip the files** for easy distribution
+3. **For Chrome Web Store**: Exclude development files like `README.md`, `.gitignore`, and any test files
 
 ## License
 
