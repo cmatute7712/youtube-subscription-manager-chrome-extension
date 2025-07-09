@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Subscription Manager",
+  "version": "1.0",
+  "description": "Export YouTube subscriptions to CSV and bulk unsubscribe from channels",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads",
+    "scripting",
+    "windows"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube Subscription Manager"
+  }
+}

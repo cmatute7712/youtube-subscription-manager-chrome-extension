@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" fill="#FF0000" rx="20"/>
+  
+  <!-- Play button -->
+  <polygon points="45,35 45,93 85,64" fill="white"/>
+  
+  <!-- Subscription icon -->
+  <circle cx="95" cy="35" r="15" fill="white"/>
+  <text x="95" y="42" text-anchor="middle" fill="#FF0000" font-family="Arial" font-size="16" font-weight="bold">S</text>
+  
+  <!-- CSV icon -->
+  <rect x="20" y="95" width="40" height="25" fill="white" rx="3"/>
+  <text x="40" y="110" text-anchor="middle" fill="#FF0000" font-family="Arial" font-size="8" font-weight="bold">CSV</text>
+</svg>

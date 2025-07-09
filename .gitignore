@@ -1,0 +1,105 @@
+# Chrome Extension Development .gitignore
+
+# Build/Distribution folders
+dist/
+build/
+production/
+webstore-listing.md
+
+# Packaged extension files
+*.zip
+*.crx
+*.pem
+
+# Development artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.pdf
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (if using npm/yarn for development)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Chrome extension specific
+# Private key files (if using web store publishing)
+*.pem
+key.pem
+private-key.pem
+
+# Chrome extension store assets (screenshots, etc.)
+store-assets/
+screenshots/
+webstore-assets/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Test files and coverage
+test-results/
+coverage/
+*.lcov

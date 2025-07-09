@@ -1,0 +1,22 @@
+/* Styles for YouTube Subscription Manager */
+#yt-sub-manager-progress {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 1px solid #555;
+}
+
+#yt-sub-manager-progress #progress-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #4CAF50;
+}
+
+#yt-sub-manager-progress #progress-status {
+    margin-bottom: 5px;
+}
+
+#yt-sub-manager-progress #progress-details {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 5px;
+}
