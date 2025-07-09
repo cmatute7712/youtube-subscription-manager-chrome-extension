@@ -151,14 +151,6 @@ Youtube Subcription Manager Chrome Extension/
 ├── styles.css           # Styling for progress indicator
 ├── icon.svg             # Extension icon
 └── README.md            # This file
-
-../utilities/              # Packaging scripts
-├── package.bat           # Windows batch packaging
-├── package.ps1           # PowerShell packaging
-├── package.sh            # Bash packaging
-├── package-prod.bat      # Windows batch production packaging
-├── package-prod.ps1      # PowerShell production packaging
-└── package-prod.sh       # Bash production packaging
 ```
 
 ## Technical Details
